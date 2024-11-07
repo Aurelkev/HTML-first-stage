@@ -2,6 +2,8 @@
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
   padding: 50px;
+  width: 50%;
+  margin: auto;
   margin-bottom: 80px;
 }
 
@@ -13,12 +15,11 @@
   margin-top: 30px;
 }
 
-.carre-contenu+div {
+.carre-contenu + div {
   text-align: center;
 }
 
 .a-propos-main {
-  width: 50%;
   margin: auto;
 }
 
@@ -29,8 +30,8 @@ table {
   border-collapse: collapse;
 }
 
-th,
-td {
+td,
+th {
   padding: 15px;
   border: 1px solid #a5b4fc;
 }
